@@ -9,8 +9,8 @@
       "Cha": { "long": "Charisma", "abbr": "cha" }
     },
     "SheetLabels": {
-      "Actor": "Boilerplate Actor Sheet",
-      "Item": "Boilerplate Item Sheet"
+      "Actor": "Warhammer Fantasy RPG 2 Actor Sheet",
+      "Item": "Warhammer Fantasy RPG 2 Item Sheet"
     },
     "Item": {
       "Spell": {

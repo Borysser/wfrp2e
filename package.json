@@ -1,11 +1,11 @@
 {
-  "name": "boilerplate",
+  "name": "wfrp2e",
   "version": "2.0.0",
-  "description": "CSS compiler for the Boilerplate system",
+  "description": "CSS compiler for the Warhammer Fantasy RPG 2 system",
   "scripts": {
-    "build": "sass src/scss/boilerplate.scss css/boilerplate.css --style=expanded --no-source-map",
-    "watch": "sass src/scss/boilerplate.scss css/boilerplate.css --style=expanded --source-map --watch",
-    "generate": "node src/generate-boilerplate-system.mjs"
+    "build": "sass src/scss/wfrp2e.scss css/wfrp2e.css --style=expanded --no-source-map",
+    "watch": "sass src/scss/wfrp2e.scss css/wfrp2e.css --style=expanded --source-map --watch",
+    "generate": "node src/generate-wfrp2e-system.mjs"
   },
   "browserslist": [
     "last 3 versions"

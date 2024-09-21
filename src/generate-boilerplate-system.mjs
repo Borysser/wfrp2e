@@ -102,7 +102,7 @@ class SystemGenerator {
   /**
    * Replace file contents.
    *
-   * Replace refercnes to 'boilerplate', 'Boilerplate', and 'BOILERPLATE'
+   * Replace refercnes to 'boilerplate', 'Warhammer Fantasy RPG 2', and 'BOILERPLATE'
    * in files copied over to the build directory.
    */
   replaceFileContents() {
@@ -121,7 +121,7 @@ class SystemGenerator {
         replacement: this.packageName
       },
       {
-        pattern: 'Boilerplate',
+        pattern: 'Warhammer Fantasy RPG 2',
         replacement: this.className
       },
       {
@@ -132,7 +132,7 @@ class SystemGenerator {
 
     // Update title in system.json.
     replace({
-      regex: 'Boilerplate',
+      regex: 'Warhammer Fantasy RPG 2',
       replacement: this.titleName,
       paths: [`./build/${this.packageName}/system.json`],
       silent: true
@@ -254,7 +254,7 @@ inquirer
     // Clean out our build directory.
     generator.cleanBuildDir();
 
-    // Glob Boilerplate's files so that we can process them.
+    // Glob Warhammer Fantasy RPG 2's files so that we can process them.
     glob('*', {ignore: ['node_modules/**'] }).then(files => {
       // Copy all files into the build dir.
       generator.copyFiles(files);
