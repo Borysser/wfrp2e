@@ -24,8 +24,8 @@
   "media": [
     {
       "type": "setup",
-      "url": "systems/wfrp2e/assets/anvil-impact.png",
-      "thumbnail": "systems/wfrp2e/assets/anvil-impact.png"
+      "url": "systems/wfrp2e/assets/logo_2e.png",
+      "thumbnail": "systems/wfrp2e/assets/logo_2e.png"
     }
   ],
   "version": "0.0.1",
@@ -47,7 +47,7 @@
   "socket": false,
   "manifest": "https://github.com/Sylvan333/wfrp2e/releases/latest/download/system.json",
   "download": "https://github.com/Sylvan333/wfrp2e/releases/download/0.0.1/wfrp2e.zip",
-  "background": "systems/wfrp2e/assets/anvil-impact.png",
+  "background": "systems/wfrp2e/assets/logo_2e.png",
   "gridDistance": 2,
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
